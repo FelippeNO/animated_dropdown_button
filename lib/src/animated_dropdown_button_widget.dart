@@ -183,10 +183,13 @@ class __AnimatedDropdownState extends State<_AnimatedDropdown> with SingleTicker
           entry!.markNeedsBuild();
         });
       });
+
+      _animationController.forward();
     }
 
     if (_isExpanded == true) {
       _isExpanded = false;
+      _animationController.reverse();
       entry!.markNeedsBuild();
       await Future.delayed(const Duration(milliseconds: 400));
       entry?.remove();
