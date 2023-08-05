@@ -1,7 +1,7 @@
 name: animated_dropdown_button
 description: A beautiful animated dropdown button.
-version: 0.0.1
-homepage: github.com/felippeno
+version: 1.0.0
+homepage: https://github.com/FelippeNO/animated_dropdown_button
 
 environment:
   sdk: '>=3.0.6 <4.0.0'
