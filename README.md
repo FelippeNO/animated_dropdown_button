@@ -1,11 +1,9 @@
-# animated_dropdown_button
+# Changelog
 
-Simple dropdown button with an interesting animation.
-Currently it can only list Strings, whose value can be retrieved by the AnimatedDropdownButtonController.
-Use without moderation.
+All notable changes to this project will be documented in this file.
 
-## Getting Started
+## 1.0.0 - 2022-10-16
 
-You start by instantiating an AnimatedDropdownButtonController with a string list and an initial value, which must be present in the list.
+### Added
 
-Then you can instantiate an AnimatedDropdownButton with the created controller.
+- First release.
