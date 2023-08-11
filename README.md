@@ -8,3 +8,6 @@ Use without moderation.
 
 You start by instantiating an AnimatedDropdownButtonController with a string list and an initial value, which must be present in the list.
 Then you can instantiate an AnimatedDropdownButton with the created controller.
+
+Now you can use an AnimatedSearchBox. Just instantiate an AnimatedSearchBoxController first.
+AnimatedSearchBox is fully customizable.
